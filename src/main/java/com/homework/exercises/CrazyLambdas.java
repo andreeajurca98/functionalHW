@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.function.*;
 
-public class CrazyLambdas {
+public abstract class CrazyLambdas implements Runnable{
 
     /**
      * Returns {@link Supplier} that always supply "Hello"
